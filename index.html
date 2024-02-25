@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomorrowland</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/imagesIndex/iconoheader.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__container">
+            <!-- image logo -->
+            <div class="header__container--image">
+                <img class="image" src="./assets/imagesIndex/iconoheader2.png" alt="Image Logo">
+            </div>
+
+            <!-- nav -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./pages/festival.html">Festival</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./pages/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./pages/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./pages/conocenos.html">Conocenos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- radio -->
+            <div class="radio">
+                <a class="radio__music" href="https://www.tomorrowland.com/home/radioplayer" target="_blank">
+                    <i class="radio__music-play fa-solid fa-play"></i>RADIO</a>
+            </div>
+            <!-- container header -->
+        </div>
+    </header>
+
+    <!-- container -->
+    <div class="container">
+        <!-- container visor -->
+        <div class="visor">
+            <!-- video -->
+            <video class="video" loop autoplay src="./assets/videos/Tomorrowland.mp4"></video>
+            <!-- container form -->
+            <div class="container__form">
+                <!-- form -->
+                <form class="form" action="">
+                    <!-- form title -->
+                    <h1 class="form__title">VIVE LA EXPERIENCIA CON NOSOTROS</h1>
+                    <!-- form content -->
+                    <div class="form__content">
+                          <!-- form content login -->
+                        <div class="form__content--login">
+                            <label class="label" for="nombre">Nombre</label>
+                            <input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                            <label class="label" for="apellidos">Apellidos</label>
+                            <input class="input" type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+
+                            <label class="label" for="correo">Correo</label>
+                            <input class="input" type="email" id="correo" name="correo" placeholder="Correo electrónico">
+
+                            <label class="label" for="password">Contraseña</label>
+                            <input class="input" type="password" id="password" name="password" placeholder="Contraseña">
+                        </div>
+                        <!-- form content login -->
+                        <div class="form__content--login">
+                            <label class="label" for="numero">Número de teléfono</label>
+                            <input class="input" type="text" id="number" name="number" placeholder="Téléfono">
+
+                            <label class="label" for="">¿Cuántas veces nos has visitado?</label>
+                            <input class="input" type="number" name="visitas" id="visitas">
+
+                            <label class="label" for="Edad">Edad</label>
+                            <input class="input" type="number" name="edad" id="edad">
+
+                            <label class="label" for="fotos">Comparte tu experiencia</label>
+                            <input class="input" type="file" accept=".jpg, .jpeg, .avif, .png" value="archivos">
+                        </div>
+                     <!-- form content -->
+                    </div>
+                    <!-- container fieldset -->
+                    <div class="container__fieldset">
+                        <fieldset class="fieldset">
+                            <legend class="legend">Tipo de música que te gusta</legend>
+                            <!-- container music -->
+                            <div class="container__music">
+                                <input class="input" type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Techno</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Electro</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Hardstyle</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">House</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Minimal</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Trance</label>
+
+                                <input type="checkbox" name="techno" class="input">
+                                <label class="label" for="techno">Dance rock</label>
+                            <!-- container music -->
+                            </div>
+                        </fieldset>
+                    <!-- container fieldset -->
+                    </div>
+
+                        <!--container conditions-->
+                        <div class="container__conditions">
+                            <div class="conditions">
+                                <input type="checkbox" id="accept" value="">
+                                <label class="conditions__accept" for="">Acepto términos y condiciones de uso</label>
+                            </div>
+    
+                            <!--conditions button-->
+                            <button class="conditions__botton">Registrate</button>
+                        <!--container conditions-->
+                         </div>
+                    <!-- container form -->
+                    </div>
+                <!-- form -->
+                </form>
+             <!-- container visor -->
+            </div>
+           <!-- container -->
+        </div>
+     
+<!-- footer -->
+<footer class="footer">
+    <!-- social networks -->
+    <div class="social-networks">   
+            
+            <a href="https://www.instagram.com/tomorrowland/" target="_blank">
+                <i class="fa-brands social-networks__icon social-networks__icon--facebook fa-square-facebook"></i>
+            </a>
+        
+            <a href="https://www.facebook.com/tomorrowland" target="_blank">
+                <i class="fa-brands social-networks__icon social-networks__icon--instagram fa-square-instagram"></i>
+            </a>
+           
+        
+            <a href="https://twitter.com/tomorrowland" target="_blank">
+                <i class="fa-brands social-networks__icon social-networks__icon--twitter fa-square-twitter"></i>
+            </a>
+           
+        
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                <i class="fa-brands social-networks__icon social-networks__icon--whatsapp fa-square-whatsapp"></i>
+            </a>
+           
+    </div>
+
+    <!--footer content-->
+    <div class="footer__content">
+        <!-- footer list -->
+        <ul class="footer__list">
+            <li class="footer__item"><strong>Politica de privacidad</strong></li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy" target="_blank">Centro de ayuda</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Preguntas frecuentes</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Seguridad del festival</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Ayuda del sitio web</a>
+            </li>
+        </ul>
+
+        <!-- footer list -->
+        <ul class="footer__list">
+            <li class="footer__item"><strong>Tomorrowland Brasil</strong></li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Mi experiencia</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Entradas y bonos</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Tarjetas VIP</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Invita a un amigo</a>
+            </li>
+        </ul>
+
+        <!-- footer list -->
+        <ul class="footer__list">
+            <li class="footer__item"><strong>Tomorrowland Bélgica</strong></li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Mi experiencia</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Entradas y bonos</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Tarjetas VIP</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Invita a un amigo</a>
+            </li>
+        </ul>
+
+           <!-- footer list -->
+        <ul class="footer__list">
+            <li class="footer__item"><strong>Tomorrowland Winter</strong></li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Mi experiencia</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Entradas y bonos</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Tarjetas VIP</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy"
+                    target="_blank">Invita a un amigo</a>
+            </li>
+        </ul>
+
+        <!--footer content-->
+    </div>
+
+    <!-- footer privacy -->
+        <p class="footer__text">©2024 TOMORROWLAND
+            <a class="footer__text-link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy" target="_blank">•
+                Términos de uso del sitio web</a>
+            <a class="footer__text-link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy" target="_blank">•
+                Politica de privacidad</a>
+            <a class="footer__text-link" href="https://www.tomorrowland.com/en/festival/tickets/your-privacy" target="_blank">•
+                Preguntas frecuentes y contacto</a>
+        </p>
+    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,289 @@
+:root{
+    --white: white;
+    --black: black;
+    --dark-gray:rgba(39, 37, 37, 0.777);
+    --pink:rgb(206, 144, 154);
+    --light-pink:rgba(222, 154, 164, 0.9);
+    --dark-pink:rgb(232, 138, 154);
+    --hover-pink:  pink;
+    --buy-pink: rgb(239, 108, 130);
+
+}
+
+@font-face {
+    font-family: monserrat;
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: monserrat;
+}
+
+.container{
+    /* border: 4px solid orange; */
+    margin-top: 0px;
+    position: relative;
+}
+
+
+.button__fixed{
+    position: fixed;
+    top: 200px;
+    z-index: 12;
+    padding: 4px;
+    left: 90%;
+    top: 86%;
+
+}
+
+.boton__fixed{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.main{
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+
+.collection{
+    background-image: url(../assets/imagenesTienda/fondotienda.avif);
+    /* border: 3px solid purple; */
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.collection__container-image{
+    /* border: 1px solid red; */
+    width: 50%;
+    position: absolute;
+    top: 25.5%;
+    left: 14%;
+}
+
+.image__collection{
+    width: 66%;
+    
+}
+
+.collection__title{
+    /* border: 1px solid green; */
+    width: 50%;
+    left: 50%;
+    position: absolute;
+    top: 18%;
+}
+
+
+.collection__subtitle{
+    position: absolute;
+    width: 40%;
+    left: 54%;
+    top: 40%;
+}
+
+.collection__button{
+    border-radius: 4px 4px 4px 4 px;
+    position: absolute;
+    width: 14%;
+    left: 60%;
+    top: 70%;
+    padding: 8px;
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+.collection__button:hover{
+    background-color: var(--pink);
+    color: var(--black);
+}
+
+.title{
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 300px;
+    border-bottom: 3px solid var(--hover-pink);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    /* border: 3px solid purple; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 220px;
+}
+
+.card{
+    border: 3px solid var(--white);
+    width: 350px;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+    background-color: var(--light-pink);
+    /* border: 4px solid red; */
+    margin-top: 20px;
+}
+
+.card:hover{
+    background-color:var(--hover-pink);
+}
+
+.card__image{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    /* border: 1px solid blue; */
+    top: -32%;
+    left: 10%;
+
+}
+
+.container__card{
+    /* border: 1px solid green; */
+    margin-top: 160px;
+    
+}
+
+.card__title{
+    text-align: center;
+    color: var(--white);
+    padding-top: 16px;
+}
+
+.card__text{
+    text-align: justify;
+    color: var(--white);
+    padding: 12px;
+    color:var(--black);
+    font-size: 0.9rem;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.clothes__size{
+    display: flex;
+    /* border: 3px solid blue; */
+    width: 36%;
+    justify-content: space-between;
+}
+
+
+
+.clothes__size--universal{
+    border: 1px solid black;
+    padding: 10px;
+    width: 28%;
+    gap: 2rem;
+    text-align: center;
+    background-color:var(--white);
+    margin-left: 10px;
+}
+
+.clothes__size--universal:hover{
+    background-color: var(--dark-pink);
+    color: var(--white);
+}
+
+.button__buy{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 8px;
+    justify-content: end;
+    align-items: center;
+  
+}
+
+.buy{
+    padding: 10px;
+    /* border: 1px solid green; */
+    background-color: var(--dark-pink);
+    color: var(--white);
+
+}
+
+.buy:hover{
+    color: var(--dark-pink);
+    background-color: var(--white);
+}
+
+.container__heart{
+    /* border: 1px solid rgb(239, 108, 130);  */
+    width: 20%;
+    margin-left: 8px;
+    border: 1px solid black;
+}
+
+.heart{
+    background-color: var(--white);
+    color: var(--buy-pink);
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+
+.heart:hover{
+   background-color: var(--buy-pink);
+    color: var(--white);
+}
+
+
+.visor__shop{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.video__shop{
+    width: 100%;
+    height: 100%;
+}
+
+
+.collaboration{
+    border: 1px solid var(--white);
+    width: 100%;
+    height: 700px;
+    margin-top: 150px;
+    background-image: url(../assets/imagenesTienda/tomorrowland.webp);
+    background-size: cover;
+}
+
+
+
+.collaboration__text{
+    color: var(--white);
+    font-size: 1.8rem;
+    text-align: center;
+   margin-top: 630px;
+}
+
+.collaboration__image{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.image__clothes{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+

@@ -1,0 +1,110 @@
+:root{
+    --white: white;
+}
+
+@font-face {
+    font-family: monserrat;
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: monserrat;
+}
+
+.container{
+    width: 100%;
+    /* margin-top: 120px; */
+    /* margin-bottom: 4px; */
+ }
+
+ .button__fixed{
+    position: fixed;
+    top: 200px;
+    z-index: 12;
+    padding: 4px;
+    left: 90%;
+    top: 86%;
+
+}
+
+.boton__fixed{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+    
+.main{
+    width: 100%;
+   
+}
+
+.title{
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid white; */
+}
+
+.card{
+    border: 1px solid var(--white);
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.card__container-image{
+    border-radius: 4px 4px 4px 4px;
+    width: 55% ;
+    padding: 12px;
+}
+
+.card__image{
+    border: 1px solid var(--white);
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.card__container-text{
+    width: 50%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    /* border: 1px solid blue; */
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.card__title{
+    text-align: center;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.card__text{
+    width: 100%;
+    color: var(--white);
+}
+
+.title-video{
+    color: var(--white);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.video__aboutUs{
+    margin-bottom: 60px;
+}
+
+.text-video{
+    color: var(--white);
+    padding-bottom: 20px;
+}
+
+
+
